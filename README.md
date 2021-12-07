@@ -2,7 +2,7 @@
 
 
 ## Description
-The 
+The Limit Order Book (LOB) is a fundamental object for organizing two-sided securities markets. The markets typically allow 4 basic types of orders for participants: bid order, ask order, market buy order, market sell order.
 
 
 ## LOB Data Structures
