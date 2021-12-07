@@ -23,19 +23,22 @@ The
 
 ## Install Instructions
 ##### Run on your local machine in a virtual environment with Python3.
-* git clone https://github.com/Traynak/lob-simulation.git
-* virtualenv -p python3 3envname
-* source 3envname/bin/activate
-* cd lob-simulation
-* pip3 install -r requirements.txt
-* python LOB-simulation.py
+```sh
+git clone https://github.com/Traynak/lob-simulation.git
+virtualenv -p python3 3envname
+source 3envname/bin/activate
+cd lob-simulation
+pip3 install -r requirements.txt
+python LOB-simulation.py
+```
 
 ##### Run on your local machine with Docker.
-- git clone https://github.com/Traynak/lob-simulation.git
-- cd lob-simulation
-- docker build -t lob-sim .
-- docker run --name lob-sim -p 5001:5001 lob-sim
-
+```sh
+git clone https://github.com/Traynak/lob-simulation.git
+cd lob-simulation
+docker build -t lob-sim .
+docker run --name lob-sim -p 5001:5001 lob-sim
+```
 
 
 ## References
