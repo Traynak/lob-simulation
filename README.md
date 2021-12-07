@@ -21,6 +21,13 @@ The
 - bid_queue - array of bid order_ids sorted by price
 
 
+## Simulation
+
+Figure 1 below shows the evolving state of the LOB modeled with the best bid (blue) and best ask (red) for each simulated period.
+<img src="images/lob_evolution.png"  width="700" height="500">
+<br><br>
+
+
 ## Install Instructions
 ##### Run on your local machine in a virtual environment with Python3.
 ```sh
@@ -42,5 +49,5 @@ docker run --name lob-sim -p 5001:5001 lob-sim
 
 
 ## References
-*  [Reference]()
-*  [LOB Class](https://github.com/FR4NKESTI3N/Limit-Order-Book-Simulation)
+*  [DrAshBooth's PyLOB Implementation](https://github.com/DrAshBooth/PyLOB/wiki/Implementation)
+
