@@ -2,23 +2,8 @@
 
 
 ## Description
-The Limit Order Book (LOB) is a fundamental object for organizing two-sided securities markets. The markets typically allow 4 basic types of orders for participants: bid order, ask order, market buy order, market sell order.
+This project simulates a Limit Order Book (LOB) allowing participants 4 basic types of orders: bid order, ask order, market buy order, market sell order. 
 
-
-## LOB Data Structures
-- order_book - dictionary contains all orders
-```
-"order_id": {
-              "action": "bid" or "ask",
-              "order_id": integer,
-              "user_id": UUID,
-              "quantity": integer,
-              "price": integer,
-              "timestamp": datetime.datetime.now()
-          }
-```          
-- offer_queue - array of ask order_ids sorted by price
-- bid_queue - array of bid order_ids sorted by price
 
 
 ## Simulation
