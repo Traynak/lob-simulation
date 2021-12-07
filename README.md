@@ -1,12 +1,8 @@
 # lob-simulation
 
-## Resources
-*  [Web App Link]()
-*  [Slides]()
-
 
 ## Description
-The
+The 
 
 
 ## LOB Data Structures
@@ -40,3 +36,8 @@ The
 - docker build -t lob-sim .
 - docker run --name lob-sim -p 5001:5001 lob-sim
 
+
+
+## References
+*  [Reference]()
+*  [LOB Class](https://github.com/FR4NKESTI3N/Limit-Order-Book-Simulation)
